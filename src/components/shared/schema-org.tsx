@@ -21,7 +21,8 @@ export function SchemaOrg() {
     url: "https://truelegacy.com",
     image: "https://truelegacy.com/ryan-hero.jpg",
     sameAs: [
-      "https://www.instagram.com/ryanpool",
+      "https://www.instagram.com/ryanpoolsr/",
+      "https://www.facebook.com/ryan.pool.982",
     ],
     worksFor: {
       "@type": "Organization",
@@ -60,7 +61,8 @@ export function SchemaOrg() {
     description:
       "Ryan Pool Enagic helps families and entrepreneurs create a healthier future with Kangen Water, the Leveluk K8, EmGuarde EMF protection, and premium Japanese wellness products across 51+ countries.",
     sameAs: [
-      "https://www.instagram.com/ryanpool",
+      "https://www.instagram.com/ryanpoolsr/",
+      "https://www.facebook.com/ryan.pool.982",
     ],
     contactPoint: {
       "@type": "ContactPoint",
