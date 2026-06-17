@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "cd my-app && npm run dev",
+    "build": "cd my-app && npm run build",
+    "start": "cd my-app && npm run start"
+  },
+  "dependencies": {
+    "motion": "^12.40.0"
+  }
+}
