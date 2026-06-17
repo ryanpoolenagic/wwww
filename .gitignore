@@ -13,5 +13,4 @@ out/
 npm-debug.log*
 yarn-debug.log*
 
-# Package lock in root if any
-package-lock.json
+# Lock files are committed for reproducible builds
