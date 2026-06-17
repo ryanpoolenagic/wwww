@@ -103,9 +103,9 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@truelegacy.com" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
+                <a href="mailto:Ryanpool9@yahoo.com" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
                   <Mail className="h-4 w-4 text-gold" />
-                  info@truelegacy.com
+                  Ryanpool9@yahoo.com
                 </a>
               </li>
             </ul>

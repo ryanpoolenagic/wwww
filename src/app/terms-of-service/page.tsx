@@ -47,7 +47,7 @@ export default function TermsOfServicePage() {
             <section>
               <h2 className="font-heading text-2xl font-semibold mb-4">6. Contact Us</h2>
               <p className="text-muted-foreground">
-                If you have questions about these Terms of Service, please contact us at info@truelegacy.com
+                If you have questions about these Terms of Service, please contact us at Ryanpool9@yahoo.com
               </p>
             </section>
           </div>

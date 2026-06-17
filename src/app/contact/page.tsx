@@ -19,7 +19,7 @@ export default function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nGoals:\n${formData.goals}`,
     )
-    window.location.href = `mailto:info@truelegacy.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:Ryanpool9@yahoo.com?subject=${subject}&body=${body}`
   }
 
   return (
@@ -79,7 +79,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-muted-foreground">info@truelegacy.com</p>
+                      <p className="text-muted-foreground">Ryanpool9@yahoo.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
