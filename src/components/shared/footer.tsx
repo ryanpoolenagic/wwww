@@ -1,4 +1,4 @@
-import { Mail, MessageCircle } from "lucide-react"
+import { Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -54,15 +54,6 @@ export function Footer() {
               Helping families and entrepreneurs create a healthier future through Kangen Water and premium Japanese wellness technology.
             </p>
             <div className="mt-6 flex items-center gap-3">
-              <a
-                href="https://wa.me/12137336286"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/20 text-muted-foreground transition-colors hover:border-gold hover:text-gold"
-              >
-                <MessageCircle className="h-5 w-5" />
-              </a>
               <a
                 href="https://www.instagram.com/ryanpoolsr/"
                 target="_blank"
