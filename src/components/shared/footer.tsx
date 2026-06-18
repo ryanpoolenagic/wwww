@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Phone } from "lucide-react"
+import { Mail, MessageCircle } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -113,12 +113,6 @@ export function Footer() {
           <div>
             <h3 className="font-heading text-sm font-semibold uppercase tracking-wider text-gold">Contact</h3>
             <ul className="mt-5 space-y-3">
-              <li>
-                <a href="tel:+12137336286" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  <Phone className="h-4 w-4 text-gold" />
-                  +1 (213) 733-6286
-                </a>
-              </li>
               <li>
                 <a href="mailto:Ryanpool9@yahoo.com" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
                   <Mail className="h-4 w-4 text-gold" />

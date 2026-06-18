@@ -32,21 +32,38 @@ export function About() {
     <section className="py-20 px-6 bg-card">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="relative aspect-3/4 overflow-hidden rounded-2xl"
-          >
-            <Image
-              src="/ryan-convention.jpg"
-              alt="Ryan Pool speaking at an Enagic convention, sharing Kangen Water for a healthier future"
-              fill
-              sizes="(max-width: 768px) 90vw, 45vw"
-              className="object-cover"
-            />
-          </motion.div>
+          <div className="grid grid-cols-2 gap-4">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative aspect-3/4 overflow-hidden rounded-2xl"
+            >
+              <Image
+                src="/ryan-convention.jpg"
+                alt="Ryan Pool speaking at an Enagic convention, sharing Kangen Water for a healthier future"
+                fill
+                sizes="(max-width: 768px) 45vw, 22vw"
+                className="object-cover"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="relative aspect-3/4 overflow-hidden rounded-2xl mt-8"
+            >
+              <Image
+                src="/ryan-trust-image.jpg"
+                alt="Ryan Pool connecting with families and building trust through Kangen Water"
+                fill
+                sizes="(max-width: 768px) 45vw, 22vw"
+                className="object-cover"
+              />
+            </motion.div>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, x: 20 }}

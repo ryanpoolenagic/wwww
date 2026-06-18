@@ -15,11 +15,20 @@ export const metadata: Metadata = {
     title: "Ryan Pool Enagic | Creating A Healthier Future",
     description: "Discover Kangen Water and the flagship Leveluk K8 with Ryan Pool — hydrogen-rich, ionized alkaline water for a healthier future.",
     url: "https://truelegacy.com",
+    images: [
+      {
+        url: "https://truelegacy.com/ryan-trust-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ryan Pool - Independent Enagic Distributor helping families create a healthier future",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ryan Pool Enagic | Creating A Healthier Future",
     description: "Discover Kangen Water and the flagship Leveluk K8 with Ryan Pool — hydrogen-rich, ionized alkaline water for a healthier future.",
+    images: ["https://truelegacy.com/ryan-trust-image.jpg"],
   },
   alternates: {
     canonical: "/",

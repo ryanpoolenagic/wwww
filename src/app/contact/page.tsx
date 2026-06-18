@@ -1,7 +1,7 @@
 "use client"
 
 import { CalendlyInline } from "@/components/shared/calendly"
-import { Mail, MapPin, Phone, Send } from "lucide-react"
+import { Mail, MapPin, Send } from "lucide-react"
 import { motion } from "motion/react"
 import { useState } from "react"
 
@@ -64,15 +64,6 @@ export default function ContactPage() {
               <div className="bg-card rounded-2xl p-8 border border-gold/20">
                 <h2 className="font-heading text-2xl font-semibold mb-6">Contact Information</h2>
                 <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center shrink-0">
-                      <Phone className="w-6 h-6 text-gold" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (213) 733-6286</p>
-                    </div>
-                  </div>
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center shrink-0">
                       <Mail className="w-6 h-6 text-gold" />

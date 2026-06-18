@@ -66,7 +66,7 @@ export function SchemaOrg() {
     ],
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+1-213-733-6286",
+      email: "Ryanpool9@yahoo.com",
       contactType: "customer service",
       availableLanguage: ["English"],
       areaServed: "Worldwide",
