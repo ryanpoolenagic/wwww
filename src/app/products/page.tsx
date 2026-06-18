@@ -1,5 +1,6 @@
 import { ProductCard } from "@/components/products/product-card"
 import { CalendlyButton } from "@/components/shared/calendly"
+import { MetaCheckoutLink } from "@/components/shared/meta-checkout-link"
 import type { Metadata } from "next"
 
 type Product = {
@@ -204,14 +205,14 @@ export default function ProductsPage() {
                 <li><span className="font-semibold text-gold">EmGuarde:</span> Japanese-engineered EMF protection for modern digital environments</li>
                 <li><span className="font-semibold text-gold">Together:</span> A premium home wellness foundation for health, income, and legacy</li>
               </ul>
-              <a
+              <MetaCheckoutLink
                 href="https://information.enagic.com/en/introduction?company_id=2&h=557a42bfc21453abced8385114d1ac32&enroller_id=11000071628&sponsor_id=11000071628&representative_id=11000071628&line_rank=0&product_id=1016"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center justify-center rounded-xl bg-gold px-6 py-3 text-sm font-semibold text-white shadow-lg hover:brightness-110 transition-all"
               >
                 Shop the Duo
-              </a>
+              </MetaCheckoutLink>
             </div>
           </div>
         </div>

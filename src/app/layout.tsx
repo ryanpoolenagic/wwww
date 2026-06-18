@@ -105,7 +105,8 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1558712438930519');
-fbq('track', 'PageView');`}
+fbq('track', 'PageView');
+fbq('track', 'ViewContent');`}
         </Script>
         <noscript>
           <img

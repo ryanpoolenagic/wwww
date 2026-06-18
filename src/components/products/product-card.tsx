@@ -1,5 +1,6 @@
 "use client"
 
+import { trackMetaEvent } from "@/components/shared/meta-pixel"
 import { ArrowRight, Check, MessageCircle, ShoppingCart } from "lucide-react"
 import { motion } from "motion/react"
 import Image from "next/image"
@@ -73,6 +74,7 @@ export function ProductCard({ name, image, description, link, index, category, f
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`Buy ${name} now`}
+            onClick={() => trackMetaEvent("InitiateCheckout")}
             className="group/btn inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_30px_-8px_rgba(2,132,199,0.6)] transition-all hover:bg-muted-gold"
           >
             <ShoppingCart className="h-4 w-4" />

@@ -1,6 +1,7 @@
 "use client"
 
 import { CALENDLY_URL, CalendlyButton } from "@/components/shared/calendly"
+import { trackMetaEvent } from "@/components/shared/meta-pixel"
 import {
   ArrowRight,
   BadgeCheck,
@@ -110,6 +111,7 @@ export function K8Spotlight() {
                 href={K8_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackMetaEvent("InitiateCheckout")}
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold px-8 py-4 text-base font-bold text-white shadow-[0_14px_38px_-12px_rgba(2,132,199,0.75)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-muted-gold"
               >
                 Buy The K8 Now
