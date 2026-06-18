@@ -84,22 +84,6 @@ export default function ContactPage() {
                   </div>
                 </div>
               </div>
-
-              <div className="bg-card rounded-2xl p-8 border border-gold/20">
-                <h2 className="font-heading text-2xl font-semibold mb-4">Connect on WhatsApp</h2>
-                <p className="text-muted-foreground mb-6">
-                  Get instant responses and connect directly with our team.
-                </p>
-                <a
-                  href="https://wa.me/12137336286"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors"
-                >
-                  <Send className="w-5 h-5" />
-                  Message on WhatsApp
-                </a>
-              </div>
             </motion.div>
 
             <motion.div
